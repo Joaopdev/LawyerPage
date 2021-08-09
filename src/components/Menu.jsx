@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import Home from "../Pages/Home";
 
 const Menu = styled.div`
     background-color: #223555;
@@ -74,7 +73,7 @@ const Menu = styled.div`
     }
 `;
 
-const NavLink = styled(Link)`
+export const NavLink = styled(Link)`
     font-family: "Roboto Slab", serif;
     color: white;
     text-decoration: none;
@@ -84,7 +83,7 @@ const NavLink = styled(Link)`
     display: inline-block;
 `;
 
-export default function () {
+export default function MyMenu () {
     return (
         <Menu>
             <nav>

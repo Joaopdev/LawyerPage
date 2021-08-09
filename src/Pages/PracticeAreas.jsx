@@ -1,16 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 import Menu from "../components/Menu.jsx";
-import News, { Background, Barra, Title } from "./About.jsx";
+import { Background, Barra, Title } from "./About.jsx";
 import Bag from '../assets/icons/bag.png'
 import Balance from '../assets/icons/balance.png'
 import Contract from '../assets/icons/contract.png'
 import Deal from '../assets/icons/deal.png'
 import Hammer from '../assets/icons/hammer.png'
 import Book from '../assets/icons/book.png'
+import { NavLink } from "../components/Menu";
 
 
-const Container_Practice = styled.div`
+const ContainerPractice = styled.div`
     position: relative;
     left: 50%; 
     transform: translate(-50%, -0);
@@ -82,7 +83,7 @@ const Column = styled.div`
     
 `
 
-const Column_Title = styled.h2`
+const ColumnTitle = styled.h2`
     
     color: #3D3D3D;
 
@@ -110,7 +111,7 @@ const Column_Title = styled.h2`
 
 `
 
-const Card_Practice = styled.div`
+const CardPractice = styled.div`
     
     width: 260px;
     height: 200px;
@@ -153,76 +154,76 @@ const Card_Practice = styled.div`
     
 `
 
-export default function (props) {
+export default function PracticeAreas(props) {
     return (
         <Background>
             <Barra>
                 <Title>Denzel & Michael </Title>
                 <Menu />
             </Barra>
-            <Container_Practice>
+            <ContainerPractice>
                 <Row Height={25} color='inherit'>
                     <Column Height={8} desktop='12'>
-                        <Column_Title>
+                        <ColumnTitle>
                             <h1>Practice Areas</h1>
                          
                             <p>Realize your constitutinal right with qualified help.</p>
-                        </Column_Title>
+                        </ColumnTitle>
                     </Column>
                 </Row>
                 <Row>
                     <Column desktop='4' >
-                        <Card_Practice>
+                        <CardPractice>
                             <img src={Bag} alt="" />
                             <h2>Business Law</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit [...]</p>
-                            <a href="#"> Read more...</a>
-                        </Card_Practice>
+                            <NavLink> Read more...</NavLink>
+                        </CardPractice>
                     </Column>
                     <Column desktop='4'>
-                        <Card_Practice>
+                        <CardPractice>
                             <img src={Book} alt="" />
                             <h2>Insurance Law</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit [...]</p>
-                            <a href="#"> Read more...</a>
-                        </Card_Practice>
+                            <NavLink> Read more...</NavLink>
+                        </CardPractice>
                     </Column>
                     <Column desktop='4'>
-                        <Card_Practice>
+                        <CardPractice>
                             <img src={Balance} alt="" />
                             <h2>Divorce Law</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit [...]</p>
-                            <a href="#"> Read more...</a>
-                        </Card_Practice>
+                            <NavLink> Read more...</NavLink>
+                        </CardPractice>
                     </Column>
                 </Row>
                 <Row>
                     <Column desktop='4' >
-                        <Card_Practice>
+                        <CardPractice>
                             <img src={Contract} alt="" />
                             <h2>Industrial Law</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit [...]</p>
-                            <a href="#"> Read more...</a>
-                        </Card_Practice>
+                            <NavLink> Read more...</NavLink>
+                        </CardPractice>
                     </Column>
                     <Column desktop='4' >
-                        <Card_Practice>
+                        <CardPractice>
                             <img src={Deal} alt="" />
                             <h2>Finance Law</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit [...]</p>
-                            <a href="#"> Read more...</a>
-                        </Card_Practice>
+                            <NavLink> Read more...</NavLink>
+                        </CardPractice>
                     </Column>
                     <Column desktop='4' >
-                        <Card_Practice>
+                        <CardPractice>
                             <img src={Hammer} alt="" />
                             <h2>Conciliation</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit [...]</p>
-                            <a href="#"> Read more...</a>
-                        </Card_Practice>
+                            <NavLink> Read more...</NavLink>
+                        </CardPractice>
                     </Column>
                 </Row>
-            </Container_Practice>
+            </ContainerPractice>
         </Background>
     );
 }

@@ -3,18 +3,18 @@ import Header from '../components/header'
 import Main from '../components/Main'
 import styled from 'styled-components'
 
-const Main__Container = styled.div`
+const MainContainer = styled.div`
     margin: 0;
     padding: 0;
     height: 100vh;
 `
 
 
-export default function () {
+export default function Home () {
     return (
-        <Main__Container>
+        <MainContainer>
             <Header />
             <Main />           
-        </Main__Container>
+        </MainContainer>
     )
 }

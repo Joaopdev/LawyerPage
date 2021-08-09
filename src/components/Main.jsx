@@ -30,7 +30,7 @@ const Main = styled.div`
 
 `
 
-const Main_Painel = styled.div`
+const MainPainel = styled.div`
     position: absolute;
     
     z-index: 500;
@@ -81,12 +81,12 @@ const Main_Painel = styled.div`
 
 
 
-export default function () {
+export default function MyMain () {
     return ( 
         <Main>
             <img src={Painel} alt="" />
             
-            <Main_Painel>
+            <MainPainel>
                 <p>Since 1982
                 </p>
                 <h2>
@@ -95,7 +95,7 @@ export default function () {
                 <div>
                     <NavLink to='PageNotFound'><button>Get a free Consulation </button></NavLink>
                 </div>
-            </Main_Painel>
+            </MainPainel>
         </Main>
     )
 }

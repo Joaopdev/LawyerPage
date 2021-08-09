@@ -159,7 +159,7 @@ const Span = styled.span`
 `
 
 
-export default function (props) {
+export default function About(props) {
     return (
         <Background>
             

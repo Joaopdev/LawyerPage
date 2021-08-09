@@ -5,7 +5,7 @@ import call from "../assets/icons/phone-call.png";
 import mail from "../assets/icons/mail-send.png";
 import { NavLink } from "react-router-dom";
 
-const Header_Container = styled.div`
+const HeaderContainer = styled.div`
     margin: 0;
     padding: 0;
     height: auto;
@@ -34,7 +34,7 @@ const HeaderBar = styled.div`
     }
 `;
 
-const Bar_Default = styled.div`
+const BarDefault = styled.div`
     width: 65vw;
     height: 100%;
     display: flex;
@@ -43,7 +43,7 @@ const Bar_Default = styled.div`
     align-items: center;
 `;
 
-const Button__consultation = styled.button`
+const ButtonConsultation = styled.button`
     background-color: rgba(170, 164, 154, 0.363);
     position: relative;
     width: 200px;
@@ -67,7 +67,7 @@ const Title = styled.h1`
     position: relative;
 `;
 
-const Box_container = styled.div`
+const Boxcontainer = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -76,7 +76,7 @@ const Box_container = styled.div`
     padding-bottom: 30px;
 `;
 
-const Box_header = styled.div`
+const BoxHeader = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -114,7 +114,7 @@ const Contact = styled.div`
     }
 `;
 
-const Bar__Contact = styled.div`
+const BarContact = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -124,23 +124,23 @@ const Bar__Contact = styled.div`
 
 export default function Header(props) {
     return (
-        <Header_Container>
+        <HeaderContainer>
             <HeaderBar>
-                <Bar_Default>
+                <BarDefault>
                     <aside>
                         <p>Bravery, courage, fear and love in a time of war</p>
                     </aside>
                     <NavLink to="/PageNotFound">
-                        <Button__consultation>
+                        <ButtonConsultation>
                             Free Consultation
-                        </Button__consultation>
+                        </ButtonConsultation>
                     </NavLink>
-                </Bar_Default>
+                </BarDefault>
             </HeaderBar>
-            <Box_container>
-                <Box_header>
+            <Boxcontainer>
+                <BoxHeader>
                     <Title>Denzel & Michael </Title>
-                    <Bar__Contact>
+                    <BarContact>
                         <Contact>
                             <div>
                                 <img src={call} alt="" />
@@ -163,10 +163,10 @@ export default function Header(props) {
                                 <p>info@denzelmichael.adv</p>
                             </div>
                         </Contact>
-                    </Bar__Contact>
-                </Box_header>
-            </Box_container>
+                    </BarContact>
+                </BoxHeader>
+            </Boxcontainer>
             <MenuBar />
-        </Header_Container>
+        </HeaderContainer>
     );
 }

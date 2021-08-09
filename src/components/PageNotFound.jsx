@@ -42,7 +42,7 @@ const PageNotFound = styled.div`
 
 `
 
-export default () => {
+export default function PageNotFounded() {
     return (
         <PageNotFound>
             Page not found!
