@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
 
 import { Routes } from "./Routes/Routes.jsx";
@@ -18,10 +17,10 @@ const GlobalStyle = createGlobalStyle`
 
 function App() {
     return (
-        <Router>
+        <div>
             <GlobalStyle />
             <Routes />
-        </Router>
+        </div>
     );
 }
 
