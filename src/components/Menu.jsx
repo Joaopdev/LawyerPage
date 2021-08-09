@@ -94,7 +94,7 @@ export default function MyMenu () {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/About"> Sobre</NavLink>
+                        <NavLink to="/About"> About</NavLink>
                     </li>
                     <li>
                         <NavLink to="/Practice-Areas">
