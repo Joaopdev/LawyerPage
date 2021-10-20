@@ -167,7 +167,7 @@ export default function PracticeAreas(props) {
                         <ColumnTitle>
                             <h1>Practice Areas</h1>
                          
-                            <p>Realize your constitutinal right with qualified help.</p>
+                            <p>Realize your constitutional right with qualified help.</p>
                         </ColumnTitle>
                     </Column>
                 </Row>
