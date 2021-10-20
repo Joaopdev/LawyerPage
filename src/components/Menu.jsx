@@ -66,14 +66,7 @@ const Menu = styled.div`
         text-align: center;
         height: 100%;
 
-        &:after, &:before {
-            content: '';
-            display: block;
-            width: 96%;
-            background-color: #ffffffa4;
-            margin: 3px auto;
-            height: 1px;
-        }
+        
     }
 
     ul li a:hover {
