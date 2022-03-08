@@ -77,10 +77,6 @@ const MainPainel = styled.div`
 
     }
 `
-
-
-
-
 export default function MyMain () {
     return ( 
         <Main>
