@@ -1,5 +1,25 @@
-# To view work in progress, visit: 
-## https://jolly-jennings-335de4.netlify.app/
+# Template criado com base em modelo encontrado na internet.
+
+## To view work in progress, [click here](https://jolly-jennings-335de4.netlify.app/)
+ 
+<h1 align="center">
+  <img alt="Tela inicial" src="./src/assets/images/tela-inicial.png" width="450px" />
+</h1>
+</br>
+<h1 align="center">
+  <img alt="Tela inicial" src="./src/assets/images/tela-sobre.png" width="450px" />
+</h1>
+</br>
+<h1 align="center">
+  <img alt="Tela inicial" src="./src/assets/images/tela-areas-pratica.png" width="450px" />
+</h1>
+</br>
+<h1 align="center">
+  <img alt="Tela inicial" src="./src/assets/images/page-not-founded.png" width="450px" />
+</h1>
+
+
+
 
 # Getting Started with Create React App
 
